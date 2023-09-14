@@ -5,65 +5,47 @@
 
 using namespace std;
 
-class Moteur {
+int puissance = 0;
+float tensionMax, cylindree = 0;
 
-private:
+Moteur::Moteur() {
 
-	int puissance;
+	this->puissance = 0;
+}
 
-public:
+Moteur::Moteur(int puissance) {
 
-	Moteur() {
+	this->puissance = puissance;
+}
 
-		this->puissance = 0;
-
-	}
-
-	Moteur(int puissance) {
-
-		this->puissance = puissance;
-
-	}
-
-	~Moteur() {}
+Moteur::~Moteur() {}
 	
-	int getPuissance() {
+int Moteur::getPuissance() {
 
-		return this->puissance;
+	return this->puissance;
+}
 
-	}
+void Moteur::setPuissance(int puissance) {
 
-	void setPuissance(int puissance) {
+	this->puissance = puissance;
+}
 
-		this->puissance = puissance;
+float Moteur::getTensionMax() {
 
-	}
+	return this->tensionMax;
+}
 
-protected:
+float Moteur::getCylindree() {
 
-	float tensionMax, cylindree;
+	return this->cylindree;
+}
 
-	float getTensionMax() {
+void Moteur::setTensionMax(float tensionMax) {
 
-		return this->tensionMax;
+	this->tensionMax = tensionMax;
+}
 
-	}
-	float getCylindree() {
+void Moteur::setCylindree(float cylindree) {
 
-		return this->cylindree;
-
-	}
-
-	void setTensionMax(float tensionMax) {
-
-		this->tensionMax = tensionMax;
-
-	}
-
-/*	void setCylindree(float cylindree) {
-
-		this->cylindree = cylindree;
-
-	}
-*/
-};
+	this->cylindree = cylindree;
+}
