@@ -1,26 +1,23 @@
 
 #ifndef ELECTRIQUE_H
 #define ELECTRIQUE_H
-
 #include <iostream>
 #include <string>
-#include "Moteur.h"
 
-using namespace std;
 
-class Electrique : public Moteur {
+class Electrique {
 
 private:
 
-	int tensionMax;
+	float tensionMax;
 
 public:
 
 	Electrique();
-	Electrique(int puissance);
+	Electrique(float tensionMax);
 	~Electrique();
 
-	int getTensionMax();
+	float getTensionMax();
 	void setTensionMax();
 };
 
