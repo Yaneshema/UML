@@ -1,11 +1,12 @@
 
 #ifndef ELECTRIQUE_H
 #define ELECTRIQUE_H
+
 #include <iostream>
 #include <string>
+#include "Moteur.h"
 
-
-class Electrique {
+class Electrique : public Moteur {
 
 private:
 

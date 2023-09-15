@@ -3,12 +3,12 @@
 #include <string>
 #include "Electrique.h"
 
-Electrique::Electrique() {
+Electrique::Electrique() : Moteur() {
 
 	this->tensionMax = 0;
 }
 
-Electrique::Electrique(float tensionMax) {
+Electrique::Electrique(float tensionMax) : Moteur() {
 
 	this->tensionMax = tensionMax;
 }
