@@ -27,7 +27,6 @@ protected:
 	float tensionMax, cylindree;
 	float getTensionMax(), getCylindree();
 	void setTensionMax(float tensionMax), setCylindree(float cylindree);
-
 };
 
 #endif
