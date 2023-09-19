@@ -14,7 +14,7 @@ private:
 
 	std::string nom;
 	std::string prenom;
-	int annneeNaissance;
+	int anneeNaissance;
 	Moto* mesMotos[10];	
 
 public:
@@ -32,11 +32,10 @@ public:
 
 	int getAnneeNaissance();
 
-	Moto afficheMotos();
+	Moto *afficheMotos();
 
-	void addMoto(Moto newMoto);
+	void addMoto(Moto *newMoto);
 
-	void rmMoto(Moto rmMoto);
+	void rmMoto(Moto *rmMoto);
 };
-
 #endif
