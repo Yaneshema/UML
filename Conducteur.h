@@ -15,7 +15,7 @@ private:
 	std::string nom;
 	std::string prenom;
 	int annneeNaissance;
-	Moto* mesMotos[10];
+	Moto* mesMotos[10];	
 
 public:
 

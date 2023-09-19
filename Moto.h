@@ -15,6 +15,10 @@ private:
 
 public:
 
+	Moto();
+	Moto(int poids, Moteur* moteur);
+	~Moto();
+
 	int getPoids();
 	Moteur getMoteur();
 	void setPoids(int poids), setMoteur(Moteur *moteur);
