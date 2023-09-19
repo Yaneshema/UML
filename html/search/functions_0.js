@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['addmoto_0',['addMoto',['../class_conducteur.html#a715524c2cec78b0da4e3788fb7208857',1,'Conducteur']]],
-  ['affichemotos_1',['afficheMotos',['../class_conducteur.html#a9d93d7c98511b73b5d7c86a6e5b86f0c',1,'Conducteur']]]
+  ['electrique_0',['electrique',['../class_electrique.html#a9f9c55b0f36a98cc5b5fd784783f4017',1,'Electrique::Electrique()'],['../class_electrique.html#acf4c7a2fb29959f0e6ab91877471ccb0',1,'Electrique::Electrique(float tensionMax)']]]
 ];

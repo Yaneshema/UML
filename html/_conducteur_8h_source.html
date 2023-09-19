@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Conducteur.h Source File</title>
+<title>MyProject: Conducteur.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">MyProject<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -77,11 +77,11 @@ $(document).ready(function() { init_codefold(0); });
   <div class="headertitle"><div class="title">Conducteur.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_conducteur_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef CONDUCTEUR_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define CONDUCTEUR_H</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="_moto_8h.html">Moto.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Moto.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
@@ -95,49 +95,33 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    std::string nom;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::string prenom;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">int</span> annneeNaissance;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_moto.html">Moto</a>* mesMotos[10];</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_moto.html">Moto</a>* mesMotos[10]; </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_conducteur.html#aed65afbe7a65f6f977d5cce05139d2d5">   25</a></span>    <a class="code hl_function" href="class_conducteur.html#aed65afbe7a65f6f977d5cce05139d2d5">Conducteur</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_conducteur.html#a898db37f6cda837ce7adccd2fdee39e7">   26</a></span>    <a class="code hl_function" href="class_conducteur.html#a898db37f6cda837ce7adccd2fdee39e7">~Conducteur</a>();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_conducteur.html#ab953bb38f74531390c16137221b7ada4">   27</a></span>    <a class="code hl_function" href="class_conducteur.html#ab953bb38f74531390c16137221b7ada4">Conducteur</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; conducteur);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_conducteur.html#aa138e3ba507a6ffedc38bab34281ad40">   28</a></span>    <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; <a class="code hl_function" href="class_conducteur.html#aa138e3ba507a6ffedc38bab34281ad40">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; conducteur);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_conducteur.html#aa6e946f6cebddf2894be0d9cb5c1694d">   30</a></span>    <a class="code hl_function" href="class_conducteur.html#aa6e946f6cebddf2894be0d9cb5c1694d">Conducteur</a>(std::string nom, std::string prenom, <span class="keywordtype">int</span> anneeNaissance, <a class="code hl_class" href="class_moto.html">Moto</a>* mesMotos[10]);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_conducteur.html#a10e2cbde9fcd961e83e099d636161c1a">   32</a></span>    std::string <a class="code hl_function" href="class_conducteur.html#a10e2cbde9fcd961e83e099d636161c1a">getNom</a>();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_conducteur.html#aa380656ff97013dbd2a87c411bd8d7b1">   34</a></span>    std::string <a class="code hl_function" href="class_conducteur.html#aa380656ff97013dbd2a87c411bd8d7b1">getPrenom</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_conducteur.html#aaf1aae55effa36a81f347f0c961df311">   36</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_conducteur.html#aaf1aae55effa36a81f347f0c961df311">getAnneeNaissance</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_conducteur.html#a9d93d7c98511b73b5d7c86a6e5b86f0c">   38</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conducteur.html#a9d93d7c98511b73b5d7c86a6e5b86f0c">afficheMotos</a>();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_conducteur.html#a715524c2cec78b0da4e3788fb7208857">   40</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conducteur.html#a715524c2cec78b0da4e3788fb7208857">addMoto</a>(<a class="code hl_class" href="class_moto.html">Moto</a> newMoto);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_conducteur.html#a9429f3e955597a8414532278888a5125">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conducteur.html#a9429f3e955597a8414532278888a5125">rmMoto</a>(<a class="code hl_class" href="class_moto.html">Moto</a> <a class="code hl_function" href="class_conducteur.html#a9429f3e955597a8414532278888a5125">rmMoto</a>);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="class_conducteur.html">Conducteur</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_class" href="class_conducteur.html">~Conducteur</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_class" href="class_conducteur.html">Conducteur</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; conducteur);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="class_conducteur.html">Conducteur</a>&amp; conducteur);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="class_conducteur.html">Conducteur</a>(std::string nom, std::string prenom, <span class="keywordtype">int</span> anneeNaissance, <a class="code hl_class" href="class_moto.html">Moto</a>* mesMotos[10]);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    std::string getNom();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    std::string getPrenom();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span> getAnneeNaissance();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_class" href="class_moto.html">Moto</a> afficheMotos();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> addMoto(<a class="code hl_class" href="class_moto.html">Moto</a> newMoto);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> rmMoto(<a class="code hl_class" href="class_moto.html">Moto</a> rmMoto);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="a_moto_8h_html"><div class="ttname"><a href="_moto_8h.html">Moto.h</a></div></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_conducteur_html"><div class="ttname"><a href="class_conducteur.html">Conducteur</a></div><div class="ttdef"><b>Definition</b> Conducteur.h:11</div></div>
-<div class="ttc" id="aclass_conducteur_html_a10e2cbde9fcd961e83e099d636161c1a"><div class="ttname"><a href="class_conducteur.html#a10e2cbde9fcd961e83e099d636161c1a">Conducteur::getNom</a></div><div class="ttdeci">std::string getNom()</div></div>
-<div class="ttc" id="aclass_conducteur_html_a715524c2cec78b0da4e3788fb7208857"><div class="ttname"><a href="class_conducteur.html#a715524c2cec78b0da4e3788fb7208857">Conducteur::addMoto</a></div><div class="ttdeci">void addMoto(Moto newMoto)</div></div>
-<div class="ttc" id="aclass_conducteur_html_a898db37f6cda837ce7adccd2fdee39e7"><div class="ttname"><a href="class_conducteur.html#a898db37f6cda837ce7adccd2fdee39e7">Conducteur::~Conducteur</a></div><div class="ttdeci">~Conducteur()</div></div>
-<div class="ttc" id="aclass_conducteur_html_a9429f3e955597a8414532278888a5125"><div class="ttname"><a href="class_conducteur.html#a9429f3e955597a8414532278888a5125">Conducteur::rmMoto</a></div><div class="ttdeci">void rmMoto(Moto rmMoto)</div></div>
-<div class="ttc" id="aclass_conducteur_html_a9d93d7c98511b73b5d7c86a6e5b86f0c"><div class="ttname"><a href="class_conducteur.html#a9d93d7c98511b73b5d7c86a6e5b86f0c">Conducteur::afficheMotos</a></div><div class="ttdeci">void afficheMotos()</div></div>
-<div class="ttc" id="aclass_conducteur_html_aa138e3ba507a6ffedc38bab34281ad40"><div class="ttname"><a href="class_conducteur.html#aa138e3ba507a6ffedc38bab34281ad40">Conducteur::operator=</a></div><div class="ttdeci">Conducteur &amp; operator=(const Conducteur &amp;conducteur)</div></div>
-<div class="ttc" id="aclass_conducteur_html_aa380656ff97013dbd2a87c411bd8d7b1"><div class="ttname"><a href="class_conducteur.html#aa380656ff97013dbd2a87c411bd8d7b1">Conducteur::getPrenom</a></div><div class="ttdeci">std::string getPrenom()</div></div>
-<div class="ttc" id="aclass_conducteur_html_aa6e946f6cebddf2894be0d9cb5c1694d"><div class="ttname"><a href="class_conducteur.html#aa6e946f6cebddf2894be0d9cb5c1694d">Conducteur::Conducteur</a></div><div class="ttdeci">Conducteur(std::string nom, std::string prenom, int anneeNaissance, Moto *mesMotos[10])</div></div>
-<div class="ttc" id="aclass_conducteur_html_aaf1aae55effa36a81f347f0c961df311"><div class="ttname"><a href="class_conducteur.html#aaf1aae55effa36a81f347f0c961df311">Conducteur::getAnneeNaissance</a></div><div class="ttdeci">int getAnneeNaissance()</div></div>
-<div class="ttc" id="aclass_conducteur_html_ab953bb38f74531390c16137221b7ada4"><div class="ttname"><a href="class_conducteur.html#ab953bb38f74531390c16137221b7ada4">Conducteur::Conducteur</a></div><div class="ttdeci">Conducteur(const Conducteur &amp;conducteur)</div></div>
-<div class="ttc" id="aclass_conducteur_html_aed65afbe7a65f6f977d5cce05139d2d5"><div class="ttname"><a href="class_conducteur.html#aed65afbe7a65f6f977d5cce05139d2d5">Conducteur::Conducteur</a></div><div class="ttdeci">Conducteur()</div></div>
 <div class="ttc" id="aclass_moto_html"><div class="ttname"><a href="class_moto.html">Moto</a></div><div class="ttdef"><b>Definition</b> Moto.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

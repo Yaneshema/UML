@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['main_0',['main',['../_main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'Main.cpp']]],
-  ['main_2ecpp_1',['Main.cpp',['../_main_8cpp.html',1,'']]],
-  ['moteur_2',['moteur',['../class_moteur.html',1,'Moteur'],['../class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c',1,'Moteur::Moteur()'],['../class_moteur.html#a489e0495022455054a75eca1f9e0dd58',1,'Moteur::Moteur(int puissance)']]],
-  ['moteur_2ecpp_3',['Moteur.cpp',['../_moteur_8cpp.html',1,'']]],
-  ['moteur_2eh_4',['Moteur.h',['../_moteur_8h.html',1,'']]],
-  ['moto_5',['Moto',['../class_moto.html',1,'']]],
-  ['moto_2ecpp_6',['Moto.cpp',['../_moto_8cpp.html',1,'']]],
-  ['moto_2eh_7',['Moto.h',['../_moto_8h.html',1,'']]]
+  ['setcylindree_0',['setcylindree',['../class_moteur.html#a23b4193efd5f4132725dbfffddbed0ff',1,'Moteur::setCylindree()'],['../class_thermique.html#a178066d9e87bea567cb9454c55a2c6a7',1,'Thermique::setCylindree()']]],
+  ['setmoteur_1',['setMoteur',['../class_moto.html#abfbf4591a477176c38b261155c1f2d30',1,'Moto']]],
+  ['setpoids_2',['setPoids',['../class_moto.html#aefeab9d53edb251b3ef8edc7c11f8948',1,'Moto']]],
+  ['setpuissance_3',['setPuissance',['../class_moteur.html#a72de26805438e2d19b2bf1e3ab9aef98',1,'Moteur']]],
+  ['settensionmax_4',['settensionmax',['../class_electrique.html#a9e71ae68e8a350491cca18b52cc9d565',1,'Electrique::setTensionMax()'],['../class_moteur.html#a79d0bcea26929bbf5956a66987c40f62',1,'Moteur::setTensionMax()']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Moteur.h Source File</title>
+<title>MyProject: Moteur.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">MyProject<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -77,7 +77,7 @@ $(document).ready(function() { init_codefold(0); });
   <div class="headertitle"><div class="title">Moteur.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_moteur_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef MOTEUR_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define MOTEUR_H</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
@@ -96,36 +96,30 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c">Moteur</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c">Moteur</a>(<span class="keywordtype">int</span> <a class="code hl_variable" href="_moteur_8cpp.html#a87410a2a80d2312c384e1e7c6ef39e1d">puissance</a>);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c">Moteur</a>(<span class="keywordtype">int</span> puissance);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_function" href="class_moteur.html#abd73219b2994b455f2e3304d4d879f36">~Moteur</a>();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_moteur.html#ab2f2ca8d7a137f817cbdc6c5118d83fe">getPuissance</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_moteur.html#a72de26805438e2d19b2bf1e3ab9aef98">setPuissance</a>(<span class="keywordtype">int</span> <a class="code hl_variable" href="_moteur_8cpp.html#a87410a2a80d2312c384e1e7c6ef39e1d">puissance</a>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_moteur.html#a72de26805438e2d19b2bf1e3ab9aef98">setPuissance</a>(<span class="keywordtype">int</span> puissance);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_moteur.html#a34da250e05662ecb2eb59e1b22abdc47">   27</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_moteur.html#a5986cbb8b1504b30a5e345ee4e148876">tensionMax</a>, <a class="code hl_variable" href="class_moteur.html#a34da250e05662ecb2eb59e1b22abdc47">cylindree</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">float</span> tensionMax, cylindree;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_moteur.html#a6085e4c87f2332a1098a6f18c0f95b9b">getTensionMax</a>(), <a class="code hl_function" href="class_moteur.html#ada5619ddd4a42161c0fed5d646ee0351">getCylindree</a>();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_moteur.html#a79d0bcea26929bbf5956a66987c40f62">setTensionMax</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="class_moteur.html#a5986cbb8b1504b30a5e345ee4e148876">tensionMax</a>), <a class="code hl_function" href="class_moteur.html#a23b4193efd5f4132725dbfffddbed0ff">setCylindree</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="class_moteur.html#a34da250e05662ecb2eb59e1b22abdc47">cylindree</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_moteur.html#a79d0bcea26929bbf5956a66987c40f62">setTensionMax</a>(<span class="keywordtype">float</span> tensionMax), <a class="code hl_function" href="class_moteur.html#a23b4193efd5f4132725dbfffddbed0ff">setCylindree</a>(<span class="keywordtype">float</span> cylindree);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_moteur_8h.html#a58e95dc1eb9d6ce16f515e77beeadd58">   34</a></span><span class="preprocessor">#define NB 42 </span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="ttc" id="a_moteur_8cpp_html_a87410a2a80d2312c384e1e7c6ef39e1d"><div class="ttname"><a href="_moteur_8cpp.html#a87410a2a80d2312c384e1e7c6ef39e1d">puissance</a></div><div class="ttdeci">int puissance</div><div class="ttdef"><b>Definition</b> Moteur.cpp:8</div></div>
 <div class="ttc" id="aclass_moteur_html"><div class="ttname"><a href="class_moteur.html">Moteur</a></div><div class="ttdef"><b>Definition</b> Moteur.h:10</div></div>
-<div class="ttc" id="aclass_moteur_html_a23b4193efd5f4132725dbfffddbed0ff"><div class="ttname"><a href="class_moteur.html#a23b4193efd5f4132725dbfffddbed0ff">Moteur::setCylindree</a></div><div class="ttdeci">void setCylindree(float cylindree)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:48</div></div>
-<div class="ttc" id="aclass_moteur_html_a34da250e05662ecb2eb59e1b22abdc47"><div class="ttname"><a href="class_moteur.html#a34da250e05662ecb2eb59e1b22abdc47">Moteur::cylindree</a></div><div class="ttdeci">float cylindree</div><div class="ttdef"><b>Definition</b> Moteur.h:27</div></div>
-<div class="ttc" id="aclass_moteur_html_a5986cbb8b1504b30a5e345ee4e148876"><div class="ttname"><a href="class_moteur.html#a5986cbb8b1504b30a5e345ee4e148876">Moteur::tensionMax</a></div><div class="ttdeci">float tensionMax</div><div class="ttdef"><b>Definition</b> Moteur.h:27</div></div>
-<div class="ttc" id="aclass_moteur_html_a6085e4c87f2332a1098a6f18c0f95b9b"><div class="ttname"><a href="class_moteur.html#a6085e4c87f2332a1098a6f18c0f95b9b">Moteur::getTensionMax</a></div><div class="ttdeci">float getTensionMax()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:33</div></div>
-<div class="ttc" id="aclass_moteur_html_a72de26805438e2d19b2bf1e3ab9aef98"><div class="ttname"><a href="class_moteur.html#a72de26805438e2d19b2bf1e3ab9aef98">Moteur::setPuissance</a></div><div class="ttdeci">void setPuissance(int puissance)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:28</div></div>
-<div class="ttc" id="aclass_moteur_html_a79d0bcea26929bbf5956a66987c40f62"><div class="ttname"><a href="class_moteur.html#a79d0bcea26929bbf5956a66987c40f62">Moteur::setTensionMax</a></div><div class="ttdeci">void setTensionMax(float tensionMax)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:43</div></div>
-<div class="ttc" id="aclass_moteur_html_a90033e47e0caf0b8808d7cd7ba53da2c"><div class="ttname"><a href="class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c">Moteur::Moteur</a></div><div class="ttdeci">Moteur()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:11</div></div>
-<div class="ttc" id="aclass_moteur_html_ab2f2ca8d7a137f817cbdc6c5118d83fe"><div class="ttname"><a href="class_moteur.html#ab2f2ca8d7a137f817cbdc6c5118d83fe">Moteur::getPuissance</a></div><div class="ttdeci">int getPuissance()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:23</div></div>
-<div class="ttc" id="aclass_moteur_html_abd73219b2994b455f2e3304d4d879f36"><div class="ttname"><a href="class_moteur.html#abd73219b2994b455f2e3304d4d879f36">Moteur::~Moteur</a></div><div class="ttdeci">~Moteur()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:21</div></div>
-<div class="ttc" id="aclass_moteur_html_ada5619ddd4a42161c0fed5d646ee0351"><div class="ttname"><a href="class_moteur.html#ada5619ddd4a42161c0fed5d646ee0351">Moteur::getCylindree</a></div><div class="ttdeci">float getCylindree()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:38</div></div>
+<div class="ttc" id="aclass_moteur_html_a23b4193efd5f4132725dbfffddbed0ff"><div class="ttname"><a href="class_moteur.html#a23b4193efd5f4132725dbfffddbed0ff">Moteur::setCylindree</a></div><div class="ttdeci">void setCylindree(float cylindree)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:89</div></div>
+<div class="ttc" id="aclass_moteur_html_a6085e4c87f2332a1098a6f18c0f95b9b"><div class="ttname"><a href="class_moteur.html#a6085e4c87f2332a1098a6f18c0f95b9b">Moteur::getTensionMax</a></div><div class="ttdeci">float getTensionMax()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:58</div></div>
+<div class="ttc" id="aclass_moteur_html_a72de26805438e2d19b2bf1e3ab9aef98"><div class="ttname"><a href="class_moteur.html#a72de26805438e2d19b2bf1e3ab9aef98">Moteur::setPuissance</a></div><div class="ttdeci">void setPuissance(int puissance)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:49</div></div>
+<div class="ttc" id="aclass_moteur_html_a79d0bcea26929bbf5956a66987c40f62"><div class="ttname"><a href="class_moteur.html#a79d0bcea26929bbf5956a66987c40f62">Moteur::setTensionMax</a></div><div class="ttdeci">void setTensionMax(float tensionMax)</div><div class="ttdef"><b>Definition</b> Moteur.cpp:78</div></div>
+<div class="ttc" id="aclass_moteur_html_a90033e47e0caf0b8808d7cd7ba53da2c"><div class="ttname"><a href="class_moteur.html#a90033e47e0caf0b8808d7cd7ba53da2c">Moteur::Moteur</a></div><div class="ttdeci">Moteur()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:12</div></div>
+<div class="ttc" id="aclass_moteur_html_ab2f2ca8d7a137f817cbdc6c5118d83fe"><div class="ttname"><a href="class_moteur.html#ab2f2ca8d7a137f817cbdc6c5118d83fe">Moteur::getPuissance</a></div><div class="ttdeci">int getPuissance()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:38</div></div>
+<div class="ttc" id="aclass_moteur_html_abd73219b2994b455f2e3304d4d879f36"><div class="ttname"><a href="class_moteur.html#abd73219b2994b455f2e3304d4d879f36">Moteur::~Moteur</a></div><div class="ttdeci">~Moteur()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:32</div></div>
+<div class="ttc" id="aclass_moteur_html_ada5619ddd4a42161c0fed5d646ee0351"><div class="ttname"><a href="class_moteur.html#ada5619ddd4a42161c0fed5d646ee0351">Moteur::getCylindree</a></div><div class="ttdeci">float getCylindree()</div><div class="ttdef"><b>Definition</b> Moteur.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
