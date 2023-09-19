@@ -1,18 +1,15 @@
 #ifndef MOTO_H
 #define MOTO_H
 #include "conducteur.h"
+#include "Moteur.h"
 #include <iostream>
 #include <string>
-class Moteur;
 
 class Moto
 {
 private:
 	int poids;
-	moteur* Moteur
-
-	protected
-
+	Moteur* moteur;
 
 public:
 	Moto();
@@ -20,13 +17,15 @@ public:
 	Moto(const Moto& moto);
 	Moto& operator=(Moto& moto);
 
-	Moto(int poids,moteur* Moteur);
+	Moto(int poids, Moteur* moteur);
 
 	int getPoids();
 	void setPoids(int poids);
 
 	Moteur getMoteur();
-	void setMoteur(moteur* Moteur);
-	
+	void setMoteur(Moteur* moteur);
 
-}
+
+};
+
+#endif

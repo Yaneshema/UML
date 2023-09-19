@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Moto {
+class Moteur {
 
 private:
 
@@ -15,6 +15,18 @@ private:
 
 public:
 
+	Moteur();
+	Moteur(int puissance);
+	~Moteur();
+
+	int getPuissance();
+	void setPuissance(int puissance);
+
+protected:
+
+	float tensionMax, cylindree;
+	float getTensionMax(), getCylindree();
+	void setTensionMax(float tensionMax), setCylindree(float cylindree);
 };
 
 #endif
